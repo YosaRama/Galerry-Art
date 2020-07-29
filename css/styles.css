@@ -1,0 +1,112 @@
+/* MENU SECTION */
+
+.navbar{
+    background-color: #5691B8;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* HOME-SECTION */
+
+.home-image{
+    position: relative;
+    text-align: center;
+}
+
+/* PROFILE-SECTION */
+
+.profile{
+    background-color: #F0F5F9;
+    padding: 7% 15%;
+}
+
+.profile-name{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom: 3rem;
+    font-weight: 900;
+}
+
+.profile-text{
+    font-family: 'Crimson Text', serif;
+    margin-right: 5rem;
+}
+
+.button-profile{
+    margin-bottom: 50px;
+}
+
+/* COLLECTION-SECTION */
+
+#collection{
+    padding: 7% 15%;
+}
+
+.collection-item{
+    width: 300px;
+    height: 300px;
+}
+.collection-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 10px 0 0 0;
+}
+
+.collection-type{
+    font-family: 'Crimson Text', serif;
+    margin: 0rem;
+}
+
+.collection-size{
+    font-family: 'Crimson Text', serif;
+    margin: 0rem;
+}
+
+.collection-button{
+
+    margin: 50px 40% 0;
+    text-align: center;
+    position: relative;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.collection-button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.collection-button:active {
+	position:relative;
+	top:1px;
+}
+
+/* FOOTER-SECTION */
+
+.social-media{
+    text-align: center;
+    background-color: #F0F5F9;
+    padding: 3% 10%;
+}
+
+.social-icon{
+    margin: 0 50px;
+    font-size: 2rem;
+    color: black;
+}
+
+.social-icon:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.copyright{
+    margin: 50px auto 0;
+    font-size: 0.7rem;
+}
